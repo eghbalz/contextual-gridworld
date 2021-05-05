@@ -1,0 +1,104 @@
+#56 context_configurations
+subdivs: 3  # for visualization purposes
+contexts: [
+{ 'goal': 'plum', 'obstacle': 'khaki', 'goodie': 'pink', agent: 'pink' },
+{ 'goal': 'plum', 'obstacle': 'pink', 'goodie': 'khaki', agent: 'khaki' },
+
+{ 'goal': 'maroon', 'obstacle': 'dark_olive_green', 'goodie': 'pale_violet_red', agent: 'pale_violet_red' },
+{ 'goal': 'maroon', 'obstacle': 'pale_violet_red', 'goodie':  'dark_olive_green', agent: 'dark_olive_green' },
+
+{ 'goal': 'rosy_brown', 'obstacle': 'yellow', 'goodie': 'purple', agent: 'purple' },
+{ 'goal': 'rosy_brown', 'obstacle': 'purple', 'goodie': 'yellow', agent: 'yellow'},
+
+{ 'goal': 'lavender', 'obstacle': 'orange', 'goodie': 'green', agent: 'green'},
+{ 'goal': 'lavender', 'obstacle': 'green', 'goodie': 'orange', agent: 'orange'},
+  ###############################################################################
+  #  khaki and pink
+  ###############################################################################
+{ 'goal': 'plum', 'obstacle': 'khaki', 'goodie': 'dark_olive_green', agent: 'dark_olive_green' },
+{ 'goal': 'plum', 'obstacle': 'dark_olive_green', 'goodie': 'khaki', agent: 'khaki' },
+
+{ 'goal': 'maroon', 'obstacle': 'khaki', 'goodie': 'yellow', agent: 'yellow' },
+{ 'goal': 'maroon', 'obstacle': 'yellow', 'goodie':  'khaki', agent: 'khaki' },
+
+{ 'goal': 'rosy_brown', 'obstacle': 'khaki', 'goodie': 'orange', agent: 'orange' },
+{ 'goal': 'rosy_brown', 'obstacle': 'orange', 'goodie': 'khaki', agent: 'khaki'},
+  #
+{ 'goal': 'lavender', 'obstacle': 'khaki', 'goodie': 'pale_violet_red', agent: 'pale_violet_red'},
+{ 'goal': 'lavender', 'obstacle': 'pale_violet_red', 'goodie': 'khaki', agent: 'khaki'},
+
+{ 'goal': 'plum', 'obstacle': 'khaki', 'goodie': 'purple', agent: 'purple' },
+{ 'goal': 'plum', 'obstacle': 'purple', 'goodie':  'khaki', agent: 'khaki' },
+
+{ 'goal': 'maroon', 'obstacle': 'khaki', 'goodie': 'green', agent: 'green' },
+{ 'goal': 'maroon', 'obstacle': 'green', 'goodie': 'khaki', agent: 'khaki'},
+
+  ###############################################################################
+{ 'goal': 'rosy_brown', 'obstacle': 'pink', 'goodie': 'dark_olive_green', agent: 'dark_olive_green' },
+{ 'goal': 'rosy_brown', 'obstacle': 'dark_olive_green', 'goodie': 'pink', agent: 'pink' },
+
+{ 'goal': 'lavender', 'obstacle': 'pink', 'goodie': 'yellow', agent: 'yellow' },
+{ 'goal': 'lavender', 'obstacle': 'yellow', 'goodie':  'pink', agent: 'pink' },
+
+{ 'goal': 'plum', 'obstacle': 'pink', 'goodie': 'orange', agent: 'orange' },
+{ 'goal': 'plum', 'obstacle': 'orange', 'goodie': 'pink', agent: 'pink'},
+  #
+{ 'goal': 'maroon', 'obstacle': 'pink', 'goodie': 'pale_violet_red', agent: 'pale_violet_red'},
+{ 'goal': 'maroon', 'obstacle': 'pale_violet_red', 'goodie': 'pink', agent: 'pink'},
+
+{ 'goal': 'rosy_brown', 'obstacle': 'pink', 'goodie': 'purple', agent: 'purple' },
+{ 'goal': 'rosy_brown', 'obstacle': 'purple', 'goodie':  'pink', agent: 'pink' },
+
+{ 'goal': 'lavender', 'obstacle': 'pink', 'goodie': 'green', agent: 'green' },
+{ 'goal': 'lavender', 'obstacle': 'green', 'goodie': 'pink', agent: 'pink'},
+
+  ###############################################################################
+  #  dark_olive_green and pale_violet_red
+  ###############################################################################
+
+{ 'goal': 'plum', 'obstacle': 'dark_olive_green', 'goodie': 'yellow', agent: 'yellow' },
+{ 'goal': 'plum', 'obstacle': 'yellow', 'goodie':  'dark_olive_green', agent: 'dark_olive_green' },
+
+{ 'goal': 'maroon', 'obstacle': 'dark_olive_green', 'goodie': 'orange', agent: 'orange' },
+{ 'goal': 'maroon', 'obstacle': 'orange', 'goodie': 'dark_olive_green', agent: 'dark_olive_green'},
+
+{ 'goal': 'rosy_brown', 'obstacle': 'dark_olive_green', 'goodie': 'purple', agent: 'purple' },
+{ 'goal': 'rosy_brown', 'obstacle': 'purple', 'goodie':  'dark_olive_green', agent: 'dark_olive_green' },
+
+{ 'goal': 'lavender', 'obstacle': 'dark_olive_green', 'goodie': 'green', agent: 'green' },
+{ 'goal': 'lavender', 'obstacle': 'green', 'goodie': 'dark_olive_green', agent: 'dark_olive_green'},
+
+  ###############################################################################
+{ 'goal': 'plum', 'obstacle': 'pale_violet_red', 'goodie': 'yellow', agent: 'yellow' },
+{ 'goal': 'plum', 'obstacle': 'yellow', 'goodie':  'pale_violet_red', agent: 'pale_violet_red' },
+
+{ 'goal': 'maroon', 'obstacle': 'pale_violet_red', 'goodie': 'orange', agent: 'orange' },
+{ 'goal': 'maroon', 'obstacle': 'orange', 'goodie': 'pale_violet_red', agent: 'pale_violet_red'},
+
+{ 'goal': 'rosy_brown', 'obstacle': 'pale_violet_red', 'goodie': 'purple', agent: 'purple' },
+{ 'goal': 'rosy_brown', 'obstacle': 'purple', 'goodie':  'pale_violet_red', agent: 'pale_violet_red' },
+
+{ 'goal': 'lavender', 'obstacle': 'pale_violet_red', 'goodie': 'green', agent: 'green' },
+{ 'goal': 'lavender', 'obstacle': 'green', 'goodie': 'pale_violet_red', agent: 'pale_violet_red'},
+
+  ###############################################################################
+  #  yellow and purple
+  ###############################################################################
+
+{ 'goal': 'plum', 'obstacle': 'yellow', 'goodie': 'orange', agent: 'orange' },
+{ 'goal': 'plum', 'obstacle': 'orange', 'goodie': 'yellow', agent: 'yellow'},
+
+
+{ 'goal': 'maroon', 'obstacle': 'yellow', 'goodie': 'green', agent: 'green' },
+{ 'goal': 'maroon', 'obstacle': 'green', 'goodie': 'yellow', agent: 'yellow'},
+
+  ###############################################################################
+
+{ 'goal': 'rosy_brown', 'obstacle': 'purple', 'goodie': 'orange', agent: 'orange' },
+{ 'goal': 'rosy_brown', 'obstacle': 'orange', 'goodie': 'purple', agent: 'purple'},
+
+{ 'goal': 'lavender', 'obstacle': 'purple', 'goodie': 'green', agent: 'green' },
+{ 'goal': 'lavender', 'obstacle': 'green', 'goodie': 'purple', agent: 'purple'},
+
+
+]

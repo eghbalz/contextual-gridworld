@@ -1,0 +1,78 @@
+
+subdivs: 3  # for visualization purposes
+contexts: [
+
+  { 'goal': 'maroon', 'obstacle': 'blue', 'goodie': 'brown', 'agent': 'brown' } ,
+  { 'goal': 'maroon', 'obstacle': 'brown', 'goodie': 'blue', 'agent': 'blue' } ,
+
+  { 'goal': 'rosy_brown', 'obstacle': 'navy', 'goodie': 'gold', 'agent': 'gold' } ,
+  { 'goal': 'rosy_brown', 'obstacle': 'gold', 'goodie': 'navy', 'agent': 'navy' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'blue', 'goodie': 'cyan', 'agent': 'cyan' } ,
+  { 'goal': 'lavender', 'obstacle': 'cyan', 'goodie': 'blue', 'agent': 'blue' } ,
+
+  { 'goal': 'plum', 'obstacle': 'navy', 'goodie': 'brown', 'agent': 'brown' } ,
+  { 'goal': 'plum', 'obstacle': 'brown', 'goodie': 'navy', 'agent': 'navy' } ,
+
+  { 'goal': 'maroon', 'obstacle': 'red', 'goodie': 'navy', 'agent': 'navy' } ,
+  { 'goal': 'maroon', 'obstacle': 'navy', 'goodie': 'red', 'agent': 'red' } ,
+
+  { 'goal': 'rosy_brown', 'obstacle': 'blue', 'goodie': 'gold', 'agent': 'gold' } ,
+  { 'goal': 'rosy_brown', 'obstacle': 'gold', 'goodie': 'blue', 'agent': 'blue' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'red', 'goodie': 'olive', 'agent': 'olive' } ,
+  { 'goal': 'lavender', 'obstacle': 'olive', 'goodie': 'red', 'agent': 'red' } ,
+
+  { 'goal': 'plum', 'obstacle': 'gold', 'goodie': 'teal', 'agent': 'teal' } ,
+  { 'goal': 'plum', 'obstacle': 'teal', 'goodie': 'gold', 'agent': 'gold' } ,
+
+  { 'goal': 'maroon', 'obstacle': 'cyan', 'goodie': 'teal', 'agent': 'teal' } ,
+  { 'goal': 'maroon', 'obstacle': 'teal', 'goodie': 'cyan', 'agent': 'cyan' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'red', 'goodie': 'teal', 'agent': 'teal' } ,
+  { 'goal': 'lavender', 'obstacle': 'teal', 'goodie': 'red', 'agent': 'red' } ,
+
+  { 'goal': 'plum', 'obstacle': 'olive', 'goodie': 'brown', 'agent': 'brown' } ,
+  { 'goal': 'plum', 'obstacle': 'brown', 'goodie': 'olive', 'agent': 'olive' } ,
+
+  { 'goal': 'maroon', 'obstacle': 'olive', 'goodie': 'teal', 'agent': 'teal' } ,
+  { 'goal': 'maroon', 'obstacle': 'teal', 'goodie': 'olive', 'agent': 'olive' } ,
+
+  { 'goal': 'rosy_brown', 'obstacle': 'cyan', 'goodie': 'olive', 'agent': 'olive' } ,
+  { 'goal': 'rosy_brown', 'obstacle': 'olive', 'goodie': 'cyan', 'agent': 'cyan' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'blue', 'goodie': 'teal', 'agent': 'teal' } ,
+  { 'goal': 'lavender', 'obstacle': 'teal', 'goodie': 'blue', 'agent': 'blue' } ,
+
+  { 'goal': 'plum', 'obstacle': 'blue', 'goodie': 'olive', 'agent': 'olive' } ,
+  { 'goal': 'plum', 'obstacle': 'olive', 'goodie': 'blue', 'agent': 'blue' } ,
+
+  { 'goal': 'maroon', 'obstacle': 'navy', 'goodie': 'olive', 'agent': 'olive' } ,
+  { 'goal': 'maroon', 'obstacle': 'olive', 'goodie': 'navy', 'agent': 'navy' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'red', 'goodie': 'cyan', 'agent': 'cyan' } ,
+  { 'goal': 'lavender', 'obstacle': 'cyan', 'goodie': 'red', 'agent': 'red' } ,
+
+  { 'goal': 'plum', 'obstacle': 'navy', 'goodie': 'teal', 'agent': 'teal' } ,
+  { 'goal': 'plum', 'obstacle': 'teal', 'goodie': 'navy', 'agent': 'navy' } ,
+
+  { 'goal': 'rosy_brown', 'obstacle': 'gold', 'goodie': 'brown', 'agent': 'brown' } ,
+  { 'goal': 'rosy_brown', 'obstacle': 'brown', 'goodie': 'gold', 'agent': 'gold' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'cyan', 'goodie': 'brown', 'agent': 'brown' } ,
+  { 'goal': 'lavender', 'obstacle': 'brown', 'goodie': 'cyan', 'agent': 'cyan' } ,
+
+  { 'goal': 'plum', 'obstacle': 'red', 'goodie': 'gold', 'agent': 'gold' } ,
+  { 'goal': 'plum', 'obstacle': 'gold', 'goodie': 'red', 'agent': 'red' } ,
+
+  { 'goal': 'maroon', 'obstacle': 'blue', 'goodie': 'navy', 'agent': 'navy' } ,
+  { 'goal': 'maroon', 'obstacle': 'navy', 'goodie': 'blue', 'agent': 'blue' } ,
+
+  { 'goal': 'rosy_brown', 'obstacle': 'red', 'goodie': 'brown', 'agent': 'brown' } ,
+  { 'goal': 'rosy_brown', 'obstacle': 'brown', 'goodie': 'red', 'agent': 'red' } ,
+
+  { 'goal': 'lavender', 'obstacle': 'cyan', 'goodie': 'gold', 'agent': 'gold' } ,
+  { 'goal': 'lavender', 'obstacle': 'gold', 'goodie': 'cyan', 'agent': 'cyan' } ,
+]
+
+

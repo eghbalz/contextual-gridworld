@@ -1,0 +1,19 @@
+name: contextual_gridworld
+
+channels:
+  - anaconda
+  - defaults
+
+dependencies:
+  - python=3.7
+  - matplotlib=3.3
+  - numpy
+  - tqdm
+
+  - pip:
+    - opencv_python
+    - gym
+    - gym-minigrid
+    - pyyaml
+
+

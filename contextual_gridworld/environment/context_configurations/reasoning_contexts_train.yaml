@@ -1,0 +1,15 @@
+
+subdivs: 3  # for visualization purposes
+contexts: [
+  { 'goal': 'plum', 'obstacle': 'blue', 'goodie': 'red', agent: 'red'},
+  { 'goal': 'plum', 'obstacle': 'red', 'goodie': 'blue', agent: 'blue'},
+
+  { 'goal': 'maroon', 'obstacle': 'cyan', 'goodie': 'navy', agent: 'navy'},
+  { 'goal': 'maroon', 'obstacle': 'navy', 'goodie': 'cyan', agent: 'cyan'},
+
+  { 'goal': 'rosy_brown', 'obstacle': 'gold', 'goodie': 'olive', agent:  'olive'},
+  { 'goal': 'rosy_brown', 'obstacle': 'olive', 'goodie': 'gold', agent:  'gold'},
+
+  { 'goal': 'lavender', 'obstacle': 'teal', 'goodie': 'brown', agent:  'brown'},
+  { 'goal': 'lavender', 'obstacle': 'brown', 'goodie': 'teal', agent:  'teal'},
+]
