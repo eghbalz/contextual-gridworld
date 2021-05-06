@@ -1,3 +1,6 @@
+"""
+adapted from https://github.com/maximecb/gym-minigrid/blob/master/manual_control.py
+"""
 
 import argparse
 

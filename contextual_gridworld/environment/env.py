@@ -1,3 +1,6 @@
+"""
+adapted from https://github.com/maximecb/gym-minigrid/blob/master/gym_minigrid/minigrid.py
+"""
 
 import gym
 import os
