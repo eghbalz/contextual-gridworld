@@ -33,14 +33,26 @@ IDX_TO_OBJECT = dict(zip(OBJECT_TO_IDX.values(), OBJECT_TO_IDX.keys()))
 
 def load_reward_config(config_file: str) -> dict:
     """Load game config from YAML file."""
-    with open(os.path.join(os.path.dirname(__file__), "reward_configurations", config_file), 'rb') as fp:
+
+    if not os.path.exists(config_file):
+        # look for config file in the reward_configurations folder
+        config_file = os.path.join(os.path.dirname(__file__), "reward_configurations", config_file)
+
+    # with open(os.path.join(os.path.dirname(__file__), "reward_configurations", config_file), 'rb') as fp:
+    with open(config_file, 'rb') as fp:
         config = yaml.load(fp, Loader=yaml.FullLoader)
     return config
 
 
 def load_context_config(config_file: str) -> (dict, int):
     """Load game config from YAML file."""
-    with open(os.path.join(os.path.dirname(__file__), "context_configurations", config_file), 'rb') as fp:
+
+    if not os.path.exists(config_file):
+        # look for config file in the context_configurations folder
+        config_file = os.path.join(os.path.dirname(__file__), "context_configurations", config_file)
+
+    # with open(os.path.join(os.path.dirname(__file__), "context_configurations", config_file), 'rb') as fp:
+    with open(config_file, 'rb') as fp:
         config = yaml.load(fp, Loader=yaml.FullLoader)
 
     return config['contexts'], config['subdivs']
