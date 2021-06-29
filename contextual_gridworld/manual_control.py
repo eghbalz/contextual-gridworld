@@ -3,10 +3,9 @@ adapted from https://github.com/maximecb/gym-minigrid/blob/master/manual_control
 """
 
 import argparse
+
 import gym
-
 from gym_minigrid.window import Window
-
 import contextual_gridworld.environment
 
 
@@ -61,31 +60,30 @@ def key_handler(event):
         return
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--env", help="gym environment to load", default='MiniGrid-Contextual-v0')
-    parser.add_argument("--seed", type=int, help="random seed to generate the environment with", default=-1)
-    parser.add_argument('--agent_view', default=False, help="draw what the agent sees", action='store_true')
-    parser.add_argument("--reward", help="choose reward configuration", default='default.yaml')
-    parser.add_argument("--context_config", help="choose context configuration", default='reasoning_contexts_train.yaml')
-    parser.add_argument("--grid_size", type=int, help="size of the grid world", default=6)
-    parser.add_argument("--tile_size", type=int, help="size at which to render tiles for the agent", default=8)
-    parser.add_argument('--context_id', type=int, help="set a specific context", default=-1)
+parser = argparse.ArgumentParser()
+parser.add_argument("--env", help="gym environment to load", default='MiniGrid-Contextual-v0')
+parser.add_argument("--seed", type=int, help="random seed to generate the environment with", default=-1)
+parser.add_argument('--agent_view', default=False, help="draw what the agent sees", action='store_true')
+parser.add_argument("--reward", help="choose reward configuration", default='default.yaml')
+parser.add_argument("--context_config", help="choose context configuration", default='reasoning_contexts_train.yaml')
+parser.add_argument("--grid_size", type=int, help="size of the grid world", default=6)
+parser.add_argument("--tile_size", type=int, help="size at which to render tiles for the agent", default=8)
+parser.add_argument('--context_id', type=int, help="set a specific context", default=-1)
 
-    args = parser.parse_args()
+args = parser.parse_args()
 
-    env = gym.make(args.env, reward_config=args.reward, grid_size=args.grid_size,
-                   context_config=args.context_config, tile_size=args.tile_size)
+env = gym.make(args.env, reward_config=args.reward, grid_size=args.grid_size,
+               context_config=args.context_config, tile_size=args.tile_size)
 
 
-    if args.context_id != -1:
-        env.random_context = False
-        env.context_id = args.context_id
+if args.context_id != -1:
+    env.random_context = False
+    env.context_id = args.context_id
 
-    window = Window(args.env)
-    window.reg_key_handler(key_handler)
+window = Window(args.env)
+window.reg_key_handler(key_handler)
 
-    reset()
+reset()
 
-    # Blocking event loop
-    window.show(block=True)
+# Blocking event loop
+window.show(block=True)
