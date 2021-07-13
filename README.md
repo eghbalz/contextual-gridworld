@@ -58,7 +58,7 @@ You can control the agent using the arrow keys `UP`, `LEFT` and `RIGHT`.
   url       =  {http://proceedings.mlr.press/v148/eghbal-zadeh21a.html}
 }
 
-@inproceedings{eghbal2021learning,
+@InProceedings{eghbal2021learning,
   title={Learning to Infer Unseen Contexts in Causal Contextual Reinforcement Learning},
   author={Eghbal-zadeh, Hamid and Henkel, Florian and Widmer, Gerhard},
   booktitle={Self-supervision for Reinforcement Learning (SSL-RL),  ICLR 2021 Workshop},
