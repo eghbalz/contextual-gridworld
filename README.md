@@ -38,3 +38,30 @@ python setup.py develop --user
 
 To verify that everything is working, try to run `python manual_control.py` in the  `contextual_gridworld` directory. 
 You can control the agent using the arrow keys `UP`, `LEFT` and `RIGHT`.
+
+
+## Citation
+
+```
+@InProceedings{pmlr-v148-eghbal-zadeh21a,
+  title     =  {Context-Adaptive Reinforcement Learning using Unsupervised Learning of Context Variables},
+  author    =  {Eghbal-zadeh, Hamid and Henkel, Florian and Widmer, Gerhard},
+  booktitle =  {NeurIPS 2020 Workshop on Pre-registration in Machine Learning},
+  pages     =  {236--254},
+  year      =  {2021},
+  editor    =  {Bertinetto, Luca and Henriques, João F. and Albanie, Samuel and Paganini, Michela and Varol, Gül},
+  volume    =  {148},
+  series    =  {Proceedings of Machine Learning Research},
+  month     =  {11 Dec},
+  publisher =  {PMLR},
+  pdf       =  {http://proceedings.mlr.press/v148/eghbal-zadeh21a/eghbal-zadeh21a.pdf},
+  url       =  {http://proceedings.mlr.press/v148/eghbal-zadeh21a.html}
+}
+
+@inproceedings{eghbal2021learning,
+  title={Learning to Infer Unseen Contexts in Causal Contextual Reinforcement Learning},
+  author={Eghbal-zadeh, Hamid and Henkel, Florian and Widmer, Gerhard},
+  booktitle={Self-supervision for Reinforcement Learning (SSL-RL),  ICLR 2021 Workshop},
+  year={2021}
+}
+```
